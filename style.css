@@ -41,10 +41,10 @@ button {
 
 
 .container {
-    max-width: 1440px;
+    max-width: 1230px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 15px;
 }
 
 .header {
@@ -52,6 +52,7 @@ button {
     position: absolute;
     right: 0;
     left: 0;
+    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
     
 }
 .header__inner {
@@ -75,13 +76,58 @@ button {
 }
 .menu-btn {
     padding: 10px 30px;
-    
 }
-
 .preview {
-    background-image: url('./images/bg.jpeg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 765px;
+}
+.preview__inner {
+    max-width: 892px;
+    width: 100%;
+    padding-top: 125px;
+}
+.preview__title {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 120%;
+    margin-bottom: 25px;
+}
+.preview__text {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 46px;
+}
+.preview__form {
+    position: relative;
+}
+.preview__input {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+    padding: 32px 41px 41px;
+    font-size: 24px;
+    font-weight: 400;
+    width: 100%;
+    border: 0;
+}
+.preview__input::placeholder {
+    color: #F2785C;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400; 
+    line-height: 29px;
+}
+.preview__btn {
+    position: absolute;
+    right: 18px;
+    top: 18px;
+    bottom: 18px;
+    font-family: 'Red Hat Text', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
 }
